@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Brahma Kumaris</title>
+		<description>Discusión Brahma Kumaris</description>
+		<link>https://www.brahmakumaris.org</link>
+		<lastBuildDate>Mon, 28 Jun 2021 19:00:09 +0100</lastBuildDate>
+		<generator>JComments</generator>
+		<atom:link href="https://www.brahmakumaris.org/es/component/jcomments/feed/com_alfresco/1508852257" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Rosa Ballesteros Mar dice:</title>
+			<link>https://www.brahmakumaris.org#comment-22140</link>
+			<description><![CDATA[Me interesaría poder estar en vuestras charlas y meditaciones on line]]></description>
+			<dc:creator>Rosa Ballesteros Mar</dc:creator>
+			<pubDate>Tue, 24 Mar 2020 00:29:26 +0000</pubDate>
+			<guid>https://www.brahmakumaris.org#comment-22140</guid>
+		</item>
+	</channel>
+</rss>

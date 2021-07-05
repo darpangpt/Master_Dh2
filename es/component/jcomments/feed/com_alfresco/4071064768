@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Brahma Kumaris</title>
+		<description>Discusión Brahma Kumaris</description>
+		<link>https://www.brahmakumaris.org</link>
+		<lastBuildDate>Mon, 28 Jun 2021 19:00:44 +0100</lastBuildDate>
+		<generator>JComments</generator>
+		<atom:link href="https://www.brahmakumaris.org/es/component/jcomments/feed/com_alfresco/4071064768" rel="self" type="application/rss+xml" />
+		<item>
+			<title>SERVTEC dice:</title>
+			<link>https://www.brahmakumaris.org#comment-22135</link>
+			<description><![CDATA[Mil gracias por otro artículo refulgente. Me anoto todos tus consejos desde hace cierto tiempo y me chiflan!!!]]></description>
+			<dc:creator>SERVTEC</dc:creator>
+			<pubDate>Tue, 18 Feb 2020 22:01:28 +0000</pubDate>
+			<guid>https://www.brahmakumaris.org#comment-22135</guid>
+		</item>
+		<item>
+			<title>Mike dice:</title>
+			<link>https://www.brahmakumaris.org#comment-22124</link>
+			<description><![CDATA[Bonita e interesante experiencia Gustavo :D]]></description>
+			<dc:creator>Mike</dc:creator>
+			<pubDate>Sun, 15 Dec 2019 16:55:54 +0000</pubDate>
+			<guid>https://www.brahmakumaris.org#comment-22124</guid>
+		</item>
+	</channel>
+</rss>

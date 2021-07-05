@@ -1,0 +1,957 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr"
+	  class='com_alfresco view-video itemid-164  short-header j39 mm-hover' prefix="og: http://ogp.me/ns#">
+
+
+<!-- Mirrored from www.brahmakumaris.org/wisdom/online-talks?view=video&nodeRef=workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&ctg=all by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jun 2021 18:48:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<base  />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Raja Yoga, Meditation, Peace, Official Brahma Kumaris" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Online Talks</title>
+	<link href="../templates/t3_bs3_blank/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="../t3-assets/css/css-5125b-94144.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../t3-assets/css/css-6e1ce-94145.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,300,500" rel="stylesheet" type="text/css" />
+	<link href="../../cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" rel="stylesheet" type="text/css" />
+	<link href="../t3-assets/css/css-591fc-67840.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css" />
+	<link href="../t3-assets/css/css-75ad6-43016.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="../t3-assets/css/css-3f395-43017.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"74c62ff10997b977006d99c1b260cfe8","system.paths":{"root":"","base":""},"joomla.jtext":{"COM_ALFRESCO_RATING_THANKS":"Thank you for rating","COM_ALFRESCO_RATED_BY":"rated by","COM_ALFRESCO_PEOPLE":"people","COM_ALFRESCO_RATING_TOOLTIP":"Give it","COM_ALFRESCO_RATING_CANCEL":"Cancel Rating","JLIB_FORM_FIELD_INVALID":"Invalid field:&#160"},"system.keepalive":{"interval":3540000,"uri":"\/component\/ajax\/?format=json"}}</script>
+	<script src="../t3-assets/js/js-0d2ed-36807.js" type="text/javascript"></script>
+	<script src="../../content.jwplatform.com/libraries/Sw9DyqTC.js" type="text/javascript"></script>
+	<script src="../t3-assets/js/js-ab531-03699.js" type="text/javascript"></script>
+	<script src="../components/com_jcomments/js/jcomments-v2.3e5bf.js?v=12" type="text/javascript"></script>
+	<script src="../components/com_jcomments/libraries/joomlatune/ajax7b30.js?v=4" type="text/javascript"></script>
+	<script src="../t3-assets/js/js-4f95a-67356.js" type="text/javascript"></script>
+	<script src="../../www.google.com/recaptcha/api3ec0.js?onload=JoomlaInitReCaptcha2&amp;render=explicit&amp;hl=en-GB" type="text/javascript"></script>
+	<script src="../t3-assets/js/js-17c82-38939.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		var siteContext = "";
+		jQuery(document).ready(function(){
+			var playerInstance = jwplayer("hero-video-container");
+			playerInstance.setup({
+				file: "http://www.brahmakumaris.org/alfresco/guestDownload/direct/workspace/SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7/Awakening%20Shivani%20Q%26A1%20Hindi.mp4",
+				image: "http://www.brahmakumaris.org/alfresco/guestDownload/direct/workspace/SpacesStore/f275e025-c0ab-49ac-bbb1-f545ca22112a/doclib.jpg",
+				title: "Awakening Q & A Part 1 (in Hindi with English translation)",
+				autostart: false,
+                events:{
+                    onPlay: function(event) {
+                        console.log("Started playing");
+                        jQuery(".video-info").hide();
+                  		jQuery(".play-title h2").text(videoIntoTitle);
+                  		jQuery(".play-title").show();
+                        jQuery("#hero-video-container").removeClass("notplaying");
+                    },
+                    onPause: function(event) {
+                        console.log("Paused playing");
+                        jQuery(".video-info").show();
+                  		jQuery(".play-title h2").text(videoIntoTitle);
+                  		jQuery(".play-title").hide();
+                        jQuery("#hero-video-container").addClass("notplaying");
+                    }
+                }
+			});
+			playerInstance.addButton(
+			    "../media/com_alfresco/images/icon-download-video.png",
+			   "Download Video",
+			   function() {
+			       jQuery.post("/alfresco/service/portal/postview?guest=true", {fileRef:"workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7", downloadAction:true},
+						function(json){},"json");
+			       window.location.href = playerInstance.getPlaylistItem()['file'];
+			   },
+			   "download"
+			);
+		    playerInstance.addButton(
+			   "../media/com_alfresco/images/icon-download-audio.png",
+			   "Download Audio",
+			   function() {
+			   window.location.href =  "http://iwebteam.brahmakumaris.org/alfresco/guestDownload/direct/workspace/SpacesStore/bbf1c55e-c37a-4917-ba81-902701486f9e/Awakening Shivani Q%26A1 Hindi.mp3";
+			   },
+			   "aDownload"
+			);
+    		retrieveFileDetails("workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7");
+			jQuery.post("/alfresco/service/portal/postview?guest=true", {fileRef:"workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7", downloadAction:false},
+				function(json){},"json");
+
+	    });
+	var commentsCount = 98;var nodeRef="workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7";
+				window.mxYouTubeR = {ajax_url:"https://www.brahmakumaris.org/",lang:{"more":"More","less":"Less"}};
+			
+	</script>
+	<meta property="fb:app_id" content="448111485385999" />
+	<meta property="og:site_name" content="Brahma Kumaris" />
+	<meta property="og:type" content="video.movie" />
+	<meta property="og:title" content="Awakening Q & A Part 1 (in Hindi with English translation)" />
+	<meta property="og:description" content="Sister Shivani from Delhi shares the basics—the process and practical benefits of Raja Yoga, and introduces us to the world of the ‘soul’." />
+	<meta property="og:url" content="https://www.brahmakumaris.org/wisdom/online-talks?view=video&nodeRef=workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&ctg=all" />
+	<meta property="og:image" content="http://www.brahmakumaris.org/alfresco/guestDownload/direct/workspace/SpacesStore/f275e025-c0ab-49ac-bbb1-f545ca22112a/doclib.jpg" />
+	<meta property="og:video" content="http://www.brahmakumaris.org/alfresco/guestDownload/direct/workspace/SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7/Awakening%20Shivani%20Q%26A1%20Hindi.mp4" />
+
+	
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="google-site-verification" content="RNdbUyq1UHdvoOxXs9_WM2eVf81frxBb2K24xzUT3YQ" />
+    <meta property="fb:pages" content="25079741788" />
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<link rel="apple-touch-icon" sizes="57x57" href="../templates/t3_bs3_blank/images/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../templates/t3_bs3_blank/images/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../templates/t3_bs3_blank/images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../templates/t3_bs3_blank/images/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../templates/t3_bs3_blank/images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../templates/t3_bs3_blank/images/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../templates/t3_bs3_blank/images/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../templates/t3_bs3_blank/images/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../templates/t3_bs3_blank/images/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="../templates/t3_bs3_blank/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="../templates/t3_bs3_blank/images/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="../templates/t3_bs3_blank/images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="../templates/t3_bs3_blank/images/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="../templates/t3_bs3_blank/images/manifest.json">
+<link rel="mask-icon" href="../templates/t3_bs3_blank/images/safari-pinned-tab.svg">
+<!-- link rel="shortcut icon" href="/templates/t3_bs3_blank/images/favicon.ico"-->
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/templates/t3_bs3_blank/images/mstile-144x144.png">
+<meta name="msapplication-config" content="/templates/t3_bs3_blank/images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KDVR98"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDVR98');</script>
+<!-- End Google Tag Manager -->
+
+<div class="t3-wrapper"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+
+<!-- HEADER -->
+<header id="t3-header" class="t3-header">
+  	<div class="container">
+	<div class="row">
+
+		<!-- LOGO -->
+		<div class="col-xs-12 col-sm-8 logo">
+			<div class="logo-image">
+				<a href="../index.html" title="Brahma Kumaris">
+											<img class="logo-img" src="../images/bk-logo-white.png" alt="Brahma Kumaris" />
+															<span>Brahma Kumaris</span>
+				</a>
+				<small class="site-slogan"></small>
+			</div>
+		</div>
+		<!-- //LOGO -->
+
+					<div class="col-xs-12 col-sm-4">
+									<!-- HEAD SEARCH -->
+					<div class="head-search ">
+						<div class="mod-languages">
+
+	<ul class="lang-block">
+						<li class="lang-active" dir="ltr">
+			<a href="online-talks.html">
+							English						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="../es/sabidur%c3%ada/conferencias-online.html">
+							Español						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="../ru/index.html">
+							Русский						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="../hi/index.html">
+							हिंदी						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="../fr/index.html">
+							Français						</a>
+			</li>
+				</ul>
+
+</div>
+<div class="itp-gs">
+	<form action="https://www.brahmakumaris.org/search" method="get" accept-charset="utf-8">
+        <input name="gsquery" type="text" class="inputbox" placeholder="Search for..." value="" />
+            </form>
+</div>
+					</div>
+					<!-- //HEAD SEARCH -->
+				
+				              
+                		
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+						</div>
+		
+	</div>
+  </div>
+</header>
+<!-- //HEADER -->
+
+
+  
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav">
+	<div class="container">
+      
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+				</button>
+			
+			
+		</div>
+      
+      				<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+		
+		<div class="t3-navbar navbar-collapse collapse">
+			<!--jdoc:include type="t3bootstrap" name="en-menu" /-->
+            <!--jdoc:include type="t3bootstrap" name="home-0" menutype="mainmenu" /-->
+            
+<div class="subnav">
+
+	<ul class="nav nav-pills menu navbar-nav"
+		>
+			<li class="item-101 deeper dropdown parent"><a class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown" href="#" >Meditation <b class="caret"></b></a><ul class="dropdown-menu" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut"><li class="item-105"><a href="../meditation/raja-yoga-meditation.html" >What is Raja Yoga Meditation?</a></li><li class="item-109"><a href="../meditation/how-to-meditate.html" >How to Meditate</a></li><li class="item-110"><a href="../meditation/where-to-meditate.html" >Where to Meditate</a></li><li class="item-111"><a href="../meditation/time-for-meditation.html" >Time for Meditation</a></li><li class="item-112"><a href="../meditation/who-uses-ry-meditation.html" >Who uses Raja Yoga Meditation</a></li><li class="item-113"><a href="../meditation/retreat-centres.html" >Retreat Centres</a></li><li class="item-149"><a href="../meditation/experience-meditation.html" >Experience Meditation</a></li></ul></li><li class="item-102 active deeper dropdown parent"><a class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown" href="#" >Wisdom <b class="caret"></b></a><ul class="dropdown-menu" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut"><li class="item-106"><a href="raja-yoga.html" >Experience Raja Yoga</a></li><li class="item-114"><a href="soul.html" >Soul</a></li><li class="item-115 parent"><a href="god-knows.html" >God Knows</a></li><li class="item-116 parent"><a href="tree-in-time.html" >Tree in Time</a></li><li class="item-117"><a href="wheel-of-life.html" >Wheel of Life</a></li><li class="item-118"><a href="karma.html" >Karma</a></li><li class="item-1335"><a href="a-narrative-of-love.html" >A narrative of love</a></li><li class="item-1286 parent"><a  href="essential-spirituality/a-spiritual-perspective.html"
+	>Essential Spirituality</a></li><li class="item-119 parent"><a href="healthy-living.html" >Healthy Living</a></li><li class="item-120 parent"><a href="spiritual-tools.html" >Spiritual Tools</a></li><li class="item-440"><a href="courses-we-offer.html" >Courses We Offer</a></li><li class="item-164 current active"><a href="online-talks.html" >Online Talks</a></li></ul></li><li class="item-103 deeper dropdown parent"><a class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown" href="#" >Hope <b class="caret"></b></a><ul class="dropdown-menu" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut"><li class="item-107 parent"><a  href="../hope/environment/a-different-consciousness.html"
+	>Environment</a></li><li class="item-1165 parent"><a  href="../hope/renewable-energy/from-a-spiritual-vision-to-local-action.html"
+	>Renewable Energy</a></li><li class="item-121 parent"><a  href="../hope/leadership/call-of-the-time.html"
+	>Leadership</a></li><li class="item-122 parent"><a  href="../hope/women-men/empowering-women.html"
+	>Women and Men</a></li><li class="item-123 parent"><a  href="../hope/youth/young-leaders.html"
+	>Youth</a></li><li class="item-179"><a href="../hope/glimpses-of-hope.html" >Glimpses of Hope</a></li></ul></li><li class="item-104 deeper dropdown parent"><a class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown" href="#" >Discovery <b class="caret"></b></a><ul class="dropdown-menu" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut"><li class="item-108 parent"><a href="../discovery/inspirations-dadi-janki.html" >Inspirations from Dadi Janki</a></li><li class="item-124 parent"><a href="../discovery/the-mindful-kitchen.html" >The Mindful Kitchen</a></li><li class="item-509 parent"><a  href="../discovery/articles-blog/articles.html"
+	>Articles</a></li><li class="item-127"><a href="../discovery/virtuescope.html" >Virtuescope</a></li><li class="item-129"><a href="../discovery/events-near-you.html" >Events Near You</a></li><li class="item-130"><a href="../discovery/ebooks.html" >Ebooks</a></li><li class="item-131"><a href="../discovery/bookshop.html" >Bookshop</a></li></ul></li></ul>
+
+</div>
+<div class="subnav navbar-right">
+
+	<ul class="nav nav-pills menu navbar-nav"
+		>
+			<li class="item-140"><a href="../index.html" >Home</a></li><li class="item-141 deeper dropdown parent"><a class="dropdown-toggle"  data-toggle="dropdown" data-hover="dropdown" href="#" >About us <b class="caret"></b></a><ul class="dropdown-menu" data-dropdown-in="bounceIn" data-dropdown-out="bounceOut"><li class="item-144"><a href="../about-us/introduction.html" >Introduction</a></li><li class="item-145"><a href="../about-us/the-students.html" >The Students</a></li><li class="item-146"><a href="../about-us/experiences-we-offer.html" >Experiences We Offer</a></li><li class="item-147 parent"><a  href="../about-us/the-brahma-kumaris-story/brahma-kumaris-world-spiritual-university.html"
+	>The Brahma Kumaris Story</a></li><li class="item-148 parent"><a href="../about-us/united-nations.html" >BKs at the UN</a></li><li class="item-185"><a href="../about-us/faqs.html" >FAQs</a></li><li class="item-777"><a href="../about-us/feedback-form.html" >Give Us Your Feedback</a></li></ul></li><li class="item-142"><a href="../centre-locator.html" >Centre locator</a></li></ul>
+
+</div>
+		</div>
+	</div>
+</nav>
+<!-- //MAIN NAVIGATION -->
+
+  
+  
+<!-- TOP SPOTLIGHT -->
+<div class="top-spotlight top-spotlight-image" style="background-image: url('../images/headers/video-recipe-bg.jpg')">
+  <div class="container" id="hero-video-wrapper">
+    <div class="row">
+      <div class="col-sm-offset-1 col-md-10">
+        <div id="hero-video-container"> </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- //TOP SPOTLIGHT -->
+
+  
+  
+
+
+  
+
+
+  
+
+<div id="t3-mainbody" class="container t3-mainbody">
+	<div class="row">
+
+		<!-- MAIN CONTENT -->
+		<div id="t3-content" class="t3-content col-xs-12">
+						<div id="system-message-container">
+	</div>
+
+			            
+			    <div class="item-page short-header" itemscope itemtype="http://schema.org/VideoObject">
+    <div class="page-header"><h1>Online Talks</h1></div><div class="video-info"><h2 itemprop="name">Awakening Q & A Part 1 (in Hindi with English translation)</h2><div itemprop="uploadDate" datetime="2009-12-29T13:02:00+00:00">December 29, 2009</div><div itemprop="description"><p>Sister Shivani from Delhi shares the basics—the process and practical benefits of Raja Yoga, and introduces us to the world of the ‘soul’.</p></div></div><meta itemprop="thumbnailUrl" content="../alfresco/guestDownload/direct/workspace/SpacesStore/f275e025-c0ab-49ac-bbb1-f545ca22112a/doclib.jpg"/>
+  <div class="videoInfo panel panel-default">
+    <div class="infoBar">
+	  <div class="rating"></div>
+	  <div id="ratingmsg"></div>
+	</div>
+	<div id="views"><span class="label label-info">Views</span> <span class="badge">43,165</span></div>
+    <!--div id="download"><a class="btn btn-sm btn-link" role="button">Download</a></div-->
+	<div id="share_links">
+<a id = "addthis_facebook_share" href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.brahmakumaris.org%2F%2Fwisdom%2Fonline-talks%3Fview%3Dvideo%26nodeRef%3Dworkspace%3A%2F%2FSpacesStore%2F2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&amp;pubid=ra-4e355cda48ff832c&amp;ct=1&amp;title=Awakening+Q+%26+A+Part+1+%28in+Hindi+with+English+translation%29&amp;pco=tbxnj-1.0" target="_blank"><img src="../../cache.addthiscdn.com/icons/v2/thumbs/32x32/facebook.png" alt="Facebook"/></a>
+
+<a id = "addthis_twitter_share" href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.brahmakumaris.org%2F%2Fwisdom%2Fonline-talks%3Fview%3Dvideo%26nodeRef%3Dworkspace%3A%2F%2FSpacesStore%2F2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&amp;pubid=ra-4e355cda48ff832c&amp;ct=1&amp;title=Awakening+Q+%26+A+Part+1+%28in+Hindi+with+English+translation%29&amp;pco=tbxnj-1.0" target="_blank"><img src="../../cache.addthiscdn.com/icons/v2/thumbs/32x32/twitter.png" alt="Twitter"/></a>
+
+<a id = "addthis_email_share" href="https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.brahmakumaris.org%2F%2Fwisdom%2Fonline-talks%3Fview%3Dvideo%26nodeRef%3Dworkspace%3A%2F%2FSpacesStore%2F2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&amp;pubid=ra-4e355cda48ff832c&amp;ct=1&amp;title=Awakening+Q+%26+A+Part+1+%28in+Hindi+with+English+translation%29&amp;pco=tbxnj-1.0" target="_blank"><img src="../../cache.addthiscdn.com/icons/v2/thumbs/32x32/email.png" alt="Email"/></a>
+</div>
+  </div>
+
+<div class="row">
+<div class="col-md-8"><script type="text/javascript">
+<!--
+var jcomments=new JComments(1006375913, 'com_alfresco','../component/jcomments/index.html');
+jcomments.setList('comments-list');
+//-->
+</script>
+<div id="jc">
+<!--span>Discuss</span-->
+<a id="addcomments" href="#addcomments"></a>
+<form id="comments-form" name="comments-form" action="javascript:void(null);">
+<p>
+	<span>
+		<input id="comments-form-name" type="text" name="name" value="" maxlength="255" size="22" tabindex="1" />
+		<label for="comments-form-name">Name (required)</label>
+	</span>
+</p>
+<p>
+	<span>
+		<input id="comments-form-email" type="text" name="email" value="" size="22" tabindex="2" />
+		<label for="comments-form-email">E-mail (required, but will not display)</label>
+	</span>
+</p>
+<p>
+	<span>
+		<textarea id="comments-form-comment" name="comment" cols="65" rows="8" tabindex="5"></textarea>
+	</span>
+</p>
+<div id="dynamic_recaptcha_1" class="g-recaptcha g-recaptcha" data-sitekey="6LcBmeQUAAAAALKjFUcgiU1M15Yz9X3tfF7dsmed" data-theme="light" data-size="normal" data-tabindex="0" data-callback="" data-expired-callback="" data-error-callback=""></div><div id="comments-form-buttons">
+	<div class="btn" id="comments-form-send"><div><a href="#" tabindex="7" onclick="jcomments.saveComment();return false;" title="Send (Ctrl+Enter)">Send</a></div></div>
+	<div class="btn" id="comments-form-cancel" style="display:none;"><div><a href="#" tabindex="8" onclick="return false;" title="Cancel">Cancel</a></div></div>
+	<div style="clear:both;"></div>
+</div>
+<div>
+	<input type="hidden" name="object_id" value="1006375913" />
+	<input type="hidden" name="object_group" value="com_alfresco" />
+</div>
+</form>
+<script type="text/javascript">
+<!--
+function JCommentsInitializeForm()
+{
+	var jcEditor = new JCommentsEditor('comments-form-comment', true);
+	jcomments.setForm(new JCommentsForm('comments-form', jcEditor));
+}
+
+if (window.addEventListener) {window.addEventListener('load',JCommentsInitializeForm,false);}
+else if (document.addEventListener){document.addEventListener('load',JCommentsInitializeForm,false);}
+else if (window.attachEvent){window.attachEvent('onload',JCommentsInitializeForm);}
+else {if (typeof window.onload=='function'){var oldload=window.onload;window.onload=function(){oldload();JCommentsInitializeForm();}} else window.onload=JCommentsInitializeForm;} 
+//-->
+</script>
+<div id="comments"><span>Comments <a class="refresh" href="#" title="Refresh comments list" onclick="jcomments.showPage(1006375913,'com_alfresco',0);return false;">&nbsp;</a></span>
+<div id="comments-list" class="comments-list">
+	<div class="even" id="comment-item-29338"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-29338" id="comment-29338">#97</a>
+<span class="comment-date">2020-10-26 05:29</span> - <span class="comment-author">Isha</span>
+<!--span class="comment-date">2020-10-26 05:29</span-->
+<div class="comment-body" id="comment-body-29338">Im not a robot</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-27225"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-27225" id="comment-27225">#96</a>
+<span class="comment-date">2020-08-20 17:17</span> - <span class="comment-author">KSHITIJA Chakre</span>
+<!--span class="comment-date">2020-08-20 17:17</span-->
+<div class="comment-body" id="comment-body-27225">I get very nervous around people and while talking I forget what to day and then mumble</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-25886"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-25886" id="comment-25886">#95</a>
+<span class="comment-date">2020-07-25 12:46</span> - <span class="comment-author">Bhupinder</span>
+<!--span class="comment-date">2020-07-25 12:46</span-->
+<div class="comment-body" id="comment-body-25886">Didi ji om Shanti .mraa cousin brother haa vo apni mrji sy shadi krky chlaa gyaa haa .ab vo ghr nhi aataa .msi dukhi rhty haa.koi direction mil skti haa baba sy .</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11546"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11546" id="comment-11546">#94</a>
+<span class="comment-date">2017-08-31 15:29</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-31 15:29</span-->
+<div class="comment-body" id="comment-body-11546">Sister Shivani listens to the issues that people have and then responds in her classes and lectures. Generally, many people have the same issues and this is the most comprehensive way for her to offer spiritual help to everyone.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11545"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11545" id="comment-11545">#93</a>
+<span class="comment-date">2017-08-31 15:26</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-31 15:26</span-->
+<div class="comment-body" id="comment-body-11545">You can contact your local Brahma Kumaris centre to discuss your personal questions in confidentiality.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11537"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11537" id="comment-11537">#92</a>
+<span class="comment-date">2017-08-31 02:31</span> - <span class="comment-author">Himaganga</span>
+<!--span class="comment-date">2017-08-31 02:31</span-->
+<div class="comment-body" id="comment-body-11537">My brother attempted suicide and died.i am not able to overcome from that depression.i would like to know why God gave me this punishment.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11536"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11536" id="comment-11536">#91</a>
+<span class="comment-date">2017-08-30 13:08</span> - <span class="comment-author">Bhavika patel</span>
+<!--span class="comment-date">2017-08-30 13:08</span-->
+<div class="comment-body" id="comment-body-11536">I want to talk sister Shivani ji.<br />I want to become Monk so what I should do this is my goal. How to successfully in my life. And can you give me place in this Dharma.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11533"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11533" id="comment-11533">#90</a>
+<span class="comment-date">2017-08-30 07:28</span> - <span class="comment-author">BAIJ NATH YADAV</span>
+<!--span class="comment-date">2017-08-30 07:28</span-->
+<div class="comment-body" id="comment-body-11533">I AM PASSING MORE TENSION BECAUSE SERVICE PROBLEM AND ????????</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11529"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11529" id="comment-11529">#89</a>
+<span class="comment-date">2017-08-29 18:19</span> - <span class="comment-author">Parul</span>
+<!--span class="comment-date">2017-08-29 18:19</span-->
+<div class="comment-body" id="comment-body-11529">I have a son who is 14 years old. He has an habit of telling lies, hiding things from us (parents), shuns responsibility, postpones things till last moment, disorganised and would like to keep place or things in very haphazardly manner. Whenever we try to make him understand about these things, he finds all this as lecture being given to him. He is kind of addicted to video/mobile games and would even compromise hos studies for it. He can play nonstop for 2-3 hours on phone. Making him understand these wrong things is a big task for us.<br />He also hates us as parents, and finds it comfortable when we are not around, as we use to ask him to do what is right.<br />I don't understand where are we wrong and why our child is not paying any attention to what we say. Please help to guide us.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11480"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11480" id="comment-11480">#88</a>
+<span class="comment-date">2017-08-23 19:07</span> - <span class="comment-author">Arti</span>
+<!--span class="comment-date">2017-08-23 19:07</span-->
+<div class="comment-body" id="comment-body-11480">I have some personal questions</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11410"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11410" id="comment-11410">#87</a>
+<span class="comment-date">2017-08-17 23:09</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-17 23:09</span-->
+<div class="comment-body" id="comment-body-11410">You are wise to have the desire to focus on yourself. You have the power to create peace, love and happiness in your life. It’s difficult to do this in the face of suffering and betrayal – you will need to focus all your energy on this goal. The first step is to realise that we are spiritual beings, souls, and that each soul has tools for creating peace, love and happiness. We generally ignore our inner tools and instead take peace, love and happiness from other people. We need to learn how to use the inner tools. Now is a good time to start a new project that can bring a lot of satisfaction. How about starting a course at your local Brahma Kumaris centre? You will learn fascinating things about yourself, the soul. You will learn how to be a master of yourself. Give yourself a treat and try!</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11408"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11408" id="comment-11408">#86</a>
+<span class="comment-date">2017-08-17 22:58</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-17 22:58</span-->
+<div class="comment-body" id="comment-body-11408">A big part of being careful about your condition is to pay attention to your thoughts. You may be stuck right now on negative thoughts about what could happen. You may need help in changing your thinking. Brahma Kumaris centres offer courses in meditation and positive thinking. Both of these courses can help you step away from your negative thinking, learn new ways of thinking and look at the factors that can help you stay positive. You will also learn about the journey of the soul and your eternal relationship with the Supreme Soul. These are important things to know when we are trying to stay positive.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11407"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11407" id="comment-11407">#85</a>
+<span class="comment-date">2017-08-17 22:49</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-17 22:49</span-->
+<div class="comment-body" id="comment-body-11407">Memories, tendencies, habits and personality – everything that is experienced during life -- is recorded in the soul. The soul also carries a set of divine qualities such as peace, love and purity. These are the original and eternal personality of the soul. When a soul leaves one body and takes another, the soul carries all it’s records into its next birth. The soul never dies -- it simply passes from one body to the next, and at certain times in its life cycle it returns to the dimension of light that is its original and eternal home.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11406"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11406" id="comment-11406">#84</a>
+<span class="comment-date">2017-08-17 22:34</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-08-17 22:34</span-->
+<div class="comment-body" id="comment-body-11406">Injustice is difficult to watch, especially when it is directed towards those we love. ShivBaba, the perfect being, is completely altruistic. This means He would never have a thought of harming anyone. He only helps people connect to their own goodness and make good decisions. However, we all receive the return of our actions. Since your parents have done good service for the family, they will receive a good return for that when they are reborn. Regardless of what the court decides to do about the case you described, the laws of karma are absolutely fair and just. Everyone will eventually get exactly what they deserve. While it may be painful to watch what is happening, it is best to not think about it unnecessarily. Thinking can cause you to suffer more. Instead, think about the kind of future you would like to create for yourself and your family. Have thoughts of kindness, honesty and loyalty towards your family to help the family stay strong during this difficult time.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11394"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11394" id="comment-11394">#83</a>
+<span class="comment-date">2017-08-16 20:14</span> - <span class="comment-author">Pragati</span>
+<!--span class="comment-date">2017-08-16 20:14</span-->
+<div class="comment-body" id="comment-body-11394">Didi,<br />Firstly, I thank god for giving me this life.But sometimes I feel depressed about my life. There is a boy who talks to me every day and also helps me sometimes even when I didn't ask for his help.Anyways, but he has a girlfriend he told me after 8 months of ours conversation. But before telling this he proposed me and also said that he will fulfill my dreams. I even checked his facebook profile and I saw her girlfriend. I am hurt. I think I have developed feelings for him. Whenever I see his 5 years back post for his girlfriend I feel bad. But didi, I want to move forward in my life.Please help me out. I want to kick him out of my mind. I am trying but I didn't succeed. He even passed my resume in his office to get me placed there ignoring his friend's resume.He talks personal like one talk with their girlfriend. I don't know what's on his mind. I just want to be a strong girl to let all this shit go. I want to focus on myself. Please didi help me out.Please..!</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11393"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11393" id="comment-11393">#82</a>
+<span class="comment-date">2017-08-16 19:44</span> - <span class="comment-author">Ankita</span>
+<!--span class="comment-date">2017-08-16 19:44</span-->
+<div class="comment-body" id="comment-body-11393">I had an ectopic pregnancy lost my one fallopian tube...there is also risk in another pregnancy...chances are 15percent of risk ...doct said me just b positive...but I m unable to recover it and ...risk factor always revolve in my mind...plz help me....becoz I have to b very positive it's is very necessary to me...help me...</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11389"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11389" id="comment-11389">#81</a>
+<span class="comment-date">2017-08-16 15:30</span> - <span class="comment-author">Hardev Nataraj</span>
+<!--span class="comment-date">2017-08-16 15:30</span-->
+<div class="comment-body" id="comment-body-11389">Dear shuvani sister,<br /> In your brahma kumaris theory ,there is 82 birth cycle right? Shall i call it as genetic imprint located in our body?please clarify...</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11163"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11163" id="comment-11163">#80</a>
+<span class="comment-date">2017-08-02 20:27</span> - <span class="comment-author">Kranti</span>
+<!--span class="comment-date">2017-08-02 20:27</span-->
+<div class="comment-body" id="comment-body-11163">Om Shanthi,My name is Kranti.<br />My uncles have betrayed me ,my mother and my brother by taking away the Ancestral property.They have created false documents and created a will on their names without our knowledge.And they spread rumours about by mother and my dead father.When i come to hear that they speak ill about by parents i feel really angry but i control my anger.My Father was eldest son of my Grand parents and my mother is eldest daughter in law in the family.They have done great service in the joint family.My grand parents has 6 sons and 6 daughters ,of which my father being the eldest.Now the case is running in the court of law.I feel sad that my mother has done enormous service to the family and she got betrayed by the people that she trusted the most.My father died due to illness 8 years back.My brother live abroad.<br />Please suggest me what to do in this scenario.Some times i feel Y does people like that live in this world.Not only the property they also take the income from other property as well.We do not get a single paisa.I trust Shiv Baba.I am sure he will punish people like them through Karma.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11043"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11043" id="comment-11043">#79</a>
+<span class="comment-date">2017-07-27 23:42</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-27 23:42</span-->
+<div class="comment-body" id="comment-body-11043">Sister Shivani listens to the issues that people have with their lives and responds to those issues in the Awakening series. You can find many of the Awakening programs on this website and all of them on the awakening.in webiste. You can look at several of the episodes. Maybe one particular series is most meaningful for you. People generally find that if they continue to view the episodes, their questions get answered and their confusion fades.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-11042"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11042" id="comment-11042">#78</a>
+<span class="comment-date">2017-07-27 23:37</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-27 23:37</span-->
+<div class="comment-body" id="comment-body-11042">We must first look after our own happiness before we can help others. A big mistake that many of us make is in thinking that another person can make us happy. It’s a painful lesson, but it leads to freedom. Freedom means to not be dependent on another person but to make decisions based on our own values and our own sense of what is right. In freedom, we make good decisions, decisions that benefit everyone. In freedom we can have good wishes for everyone, including ourselves. There is no value in hanging on to feelings of guilt. Once we realize our mistakes, have pure intentions to do better and start making independent decisions, our self esteem and self confidence return.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-11027"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-11027" id="comment-11027">#77</a>
+<span class="comment-date">2017-07-26 13:06</span> - <span class="comment-author">komal</span>
+<!--span class="comment-date">2017-07-26 13:06</span-->
+<div class="comment-body" id="comment-body-11027">i am very confused in my life what i want discuss with u about my problems can i get ur contact no or can i meet u</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-10960"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10960" id="comment-10960">#76</a>
+<span class="comment-date">2017-07-21 23:44</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-21 23:44</span-->
+<div class="comment-body" id="comment-body-10960">True love requires courage – the courage to make decisions based on love and not expect love in return. We realize that people we thought would help us through life have gone in a different direction. But we still love because we know that to love is the best for ourselves and for our families. Together with love, we need to be detached. Detachment doesn’t mean to be uninvolved or uncaring. We detach from our own desires and emotions and any pressures we may feel from other people, so that we can make good decisions. There is an expression, “The Lord is pleased with an honest heart.” Honesty means to be both loving and detached. When I am honest with myself and loving in my relations with others, I can take help and inspiration from God.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-10959"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10959" id="comment-10959">#75</a>
+<span class="comment-date">2017-07-21 23:26</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-21 23:26</span-->
+<div class="comment-body" id="comment-body-10959">It sounds like you have much to offer to a company. You have to decide whether it should be your current company or a different company. All jobs have some difficulties. Headaches are caused by the thoughts we have about our difficulties. The headaches mean that we need to change our thinking, that is, we need to think about the best possible ways of dealing with our difficulties. We can think about what we need for our well-being and how we might create what we need.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-10922"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10922" id="comment-10922">#74</a>
+<span class="comment-date">2017-07-19 19:06</span> - <span class="comment-author">xyz</span>
+<!--span class="comment-date">2017-07-19 19:06</span-->
+<div class="comment-body" id="comment-body-10922">Sister, i m married fr past 14 yrs. two yrs back i came to know of my husband's extra marital affairs,, somehow i sailed thru but now i know he is physically involved with many and even with prostitutes. We r living in the same house but not talking to each other. I am sure he will continue on this pattern as he is completely detached. We have two kids nd pls show me the path ahead. I love him but don't want to get hurt repeatedly. Also there is no emotional attachment frm his side.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-10848"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10848" id="comment-10848">#73</a>
+<span class="comment-date">2017-07-14 17:18</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-14 17:18</span-->
+<div class="comment-body" id="comment-body-10848">Living together with another person requires a lot of maturity and strength of character. Oftentimes people love each other and want to live together but their personalities clash. They suffer because of this, and think that the other person made them suffer. If you want to live together, it is wise to first recognize where there are clashes in your personalities, goals, cultures and opinions. These will all make living together difficult. What do you intend to do about the clashes? Why do you want to live together? Is it realistic to think that you can get what you want be living together? What will you do if you don’t get what you want? True love means staying with a person even when you feel that the person is interfering with your happiness. Most people mix of love and attachment. The attachment causes suffering and blocks the love.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-10833"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10833" id="comment-10833">#72</a>
+<span class="comment-date">2017-07-12 18:35</span> - <span class="comment-author">Jaanvi</span>
+<!--span class="comment-date">2017-07-12 18:35</span-->
+<div class="comment-body" id="comment-body-10833">We both love each other n want to live together. I have a 9 year daughter. When our date of birth was matched they say strictly not to live together n seperste. What should i do its very difficult.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-10762"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10762" id="comment-10762">#71</a>
+<span class="comment-date">2017-07-07 16:45</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-07 16:45</span-->
+<div class="comment-body" id="comment-body-10762">It is not possible for Sister Shivani to contact everyone personally. She listens to the concerns that people talke about and she addresses them in her lectures. Keep listening to the classes and you will find good answers and good advice.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-10760"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10760" id="comment-10760">#70</a>
+<span class="comment-date">2017-07-07 16:36</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-07 16:36</span-->
+<div class="comment-body" id="comment-body-10760">You ask very good questions which will lead you to a deep understanding of your self, God and your life. The laws of karma work identically for everyone. The most important thing to understand is that karmic “accounts” are cumulative. It is important for us to be very vigilant about our own karma because any loss or harm that we cause, small or big, will eventually come back to us. Conversely, every pure act of benevolence will come back. What we have done in the past is not as critical as what we do right now. If you feel that it is not right to consume eggs or onions or alcohol, then find out why. You can get answers to your questions at your Brahma Kumaris centre. There is no need to regret past actions once we choose to make better choices in the future. We change our destiny by doing this. Discover your own divine spiritual nature and develop it as fully as you can. This is what makes life satisfying.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="even" id="comment-item-10759"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10759" id="comment-10759">#69</a>
+<span class="comment-date">2017-07-07 16:20</span> - <span class="comment-author">Mary (Moderator)</span>
+<!--span class="comment-date">2017-07-07 16:20</span-->
+<div class="comment-body" id="comment-body-10759">Most of us feel disturbed in one way of another by the habits of people who are close to us. The key to happiness is having a very beautiful inner world that is exactly the way I like it. I have complete control over my inner world. If I like cleanliness and truth and harmony, then I keep my thoughts clean and truthful and harmonious. Regardless of what people are doing in the home, I don’t allow anything negative to touch my inner world. I stay peaceful inside. I fill myself with the sunshine of happy thoughts and good wishes towards others. I accumulate the energy of peace so that I can nourish my child with peace. This practice takes constant attention. If I forget, and start thinking about the annoying habits of others, my inner world will suffer. Instead, be the best you can be so that your child feels like she lives in a world of sunshine.</div>
+</div><div class="clear"></div>
+</div>
+</div>
+	<div class="odd" id="comment-item-10723"><div class="rbox">
+<div class="comment-box">
+<a class="comment-anchor" href="#comment-10723" id="comment-10723">#68</a>
+<span class="comment-date">2017-07-05 10:45</span> - <span class="comment-author">Vaishali</span>
+<!--span class="comment-date">2017-07-05 10:45</span-->
+<div class="comment-body" id="comment-body-10723">I want sister Shivanis contact no to discuss my personal problem thank you</div>
+</div><div class="clear"></div>
+</div>
+</div>
+</div>
+<div id="nav-bottom"><span onclick="jcomments.showPage(1006375913, 'com_alfresco', -5);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >-5</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', -4);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >-4</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', -3);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >-3</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', -2);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >-2</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', -1);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >-1</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', 0);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >0</span><span class="activepage"><b>1</b></span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', 2);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >2</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', 3);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >3</span><span onclick="jcomments.showPage(1006375913, 'com_alfresco', 4);" class="page" onmouseover="this.className='hoverpage';" onmouseout="this.className='page';" >4</span></div>
+<div id="comments-list-footer"><a class="refresh" href="#" title="Refresh comments list" onclick="jcomments.showPage(1006375913,'com_alfresco',0);return false;">Refresh comments list</a></div>
+</div>
+<div id="comments-footer" align="center"><a href="http://www.joomlatune.com/" title="JComments" target="_blank">JComments</a></div>
+<script type="text/javascript">
+<!--
+jcomments.setAntiCache(1,0,0);
+//-->
+</script> 
+</div>
+</div><div class="col-md-4">
+  <div id="relatedVideos">
+  <h3 class="relatedVideos">Related Videos</h3>
+  <ul class="mmRelatedItemsList">
+   	<li>
+		<div class="thumbnail">
+			<a href="online-talks109b.html?view=video&amp;nodeRef=workspace://SpacesStore/75164c10-c7be-4819-89a6-7fed0764b4c6&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/339a4003-663e-40b9-8395-4068505244c1/doclib.png" width="75" height="55" alt="The Engine of Faith.mp4">
+			</a>
+		</div>
+		<a href="online-talks109b.html?view=video&amp;nodeRef=workspace://SpacesStore/75164c10-c7be-4819-89a6-7fed0764b4c6&amp;ctg=all">
+				The Engine of Faith.mp4		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talks0e2c.html?view=video&amp;nodeRef=workspace://SpacesStore/34fa84e1-fe4b-45cb-8b04-4d8947279256&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/39d893cf-755b-4ef6-8eb6-ffeb51ed777c/doclib.png" width="75" height="55" alt="The 8 Powers to Create Wellbeing">
+			</a>
+		</div>
+		<a href="online-talks0e2c.html?view=video&amp;nodeRef=workspace://SpacesStore/34fa84e1-fe4b-45cb-8b04-4d8947279256&amp;ctg=all">
+				The 8 Powers to Create Wellbeing		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talks145e.html?view=video&amp;nodeRef=workspace://SpacesStore/6592c613-0802-4642-bd1c-d8227a6d73f6&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/13cd1f81-e8f9-423f-b945-f7d700a51ac9/doclib.png" width="75" height="55" alt="School of Life">
+			</a>
+		</div>
+		<a href="online-talks145e.html?view=video&amp;nodeRef=workspace://SpacesStore/6592c613-0802-4642-bd1c-d8227a6d73f6&amp;ctg=all">
+				School of Life		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talks18b4.html?view=video&amp;nodeRef=workspace://SpacesStore/1f617556-8d6b-4312-b04d-1e6dfa7f4156&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/59b62b6a-9908-4feb-84f5-461dd2b9a8e9/doclib.png" width="75" height="55" alt="Practical Silence">
+			</a>
+		</div>
+		<a href="online-talks18b4.html?view=video&amp;nodeRef=workspace://SpacesStore/1f617556-8d6b-4312-b04d-1e6dfa7f4156&amp;ctg=all">
+				Practical Silence		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talks846d.html?view=video&amp;nodeRef=workspace://SpacesStore/5863e249-35a5-411e-8726-9d85c4f97889&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/5e04fbda-201d-4088-a7a5-8298d27c2159/doclib.png" width="75" height="55" alt="The Quality of Contentment">
+			</a>
+		</div>
+		<a href="online-talks846d.html?view=video&amp;nodeRef=workspace://SpacesStore/5863e249-35a5-411e-8726-9d85c4f97889&amp;ctg=all">
+				The Quality of Contentment		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talksbc3e.html?view=video&amp;nodeRef=workspace://SpacesStore/685ea3cb-8c57-49ee-b2be-f9337724dda3&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/80b6fb86-65f5-4928-af72-ee3b186a6713/doclib.png" width="75" height="55" alt="Service Through the Mind as Activism">
+			</a>
+		</div>
+		<a href="online-talksbc3e.html?view=video&amp;nodeRef=workspace://SpacesStore/685ea3cb-8c57-49ee-b2be-f9337724dda3&amp;ctg=all">
+				Service Through the Mind as Activism		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talks8506.html?view=video&amp;nodeRef=workspace://SpacesStore/997ff521-d3a5-4d5a-9fd7-3065232c8ba3&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/19e4f408-8750-441f-9118-1e8cb6f1573b/doclib.png" width="75" height="55" alt="Success Begins in the Mind">
+			</a>
+		</div>
+		<a href="online-talks8506.html?view=video&amp;nodeRef=workspace://SpacesStore/997ff521-d3a5-4d5a-9fd7-3065232c8ba3&amp;ctg=all">
+				Success Begins in the Mind		</a>
+	</li>
+	<li>
+		<div class="thumbnail">
+			<a href="online-talksd850.html?view=video&amp;nodeRef=workspace://SpacesStore/11fae0c7-6a42-419c-8948-d6f7084a47b4&amp;ctg=all">
+				<img src="../alfresco/guestDownload/direct/workspace/SpacesStore/56331942-92ca-4f81-916f-af7501231892/doclib.png" width="75" height="55" alt="What Really Matters">
+			</a>
+		</div>
+		<a href="online-talksd850.html?view=video&amp;nodeRef=workspace://SpacesStore/11fae0c7-6a42-419c-8948-d6f7084a47b4&amp;ctg=all">
+				What Really Matters		</a>
+	</li>
+  </ul>
+  </div>
+  </div>
+  </div>
+</div>
+		</div>
+		<!-- //MAIN CONTENT -->
+
+	</div>
+</div> 
+
+
+
+  
+
+  
+  
+
+  
+  
+<!-- BOTTOM SPOTLIGHT -->
+
+<div id="bottom-spotlight" class="bottom-spotlight">
+        
+
+<div class="custom beezone-banner"  >
+	<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-6 item wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><img width="100px" class="beezone-icon" style="margin-right: 10px;" src="../images/BeeZone/BeeZone-App-Logo-transparent-bg.png" alt="BeeZone App Icon" /><img width="220px" class="beezone-logo" src="../images/BeeZone/beezone-white-logo.png" alt="BeeZone Logo" /></div>
+<div class="col-md-2 col-sm-6 item wow fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+<p class="download-button">Download BeeZone, a Multilingual Meditation App on Your Mobile</p>
+</div>
+<div class="col-md-3 col-sm-6 item wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"><a href="https://itunes.apple.com/us/app/beezone/id1326616980?ls=1&amp;mt=8"><img height="75px" class="download-button" src="../images/BeeZone/app-store-button.png" alt="BeeZone Logo" /></a></div>
+<div class="col-md-3 col-sm-6 item wow fadeInUp animated" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"><a href="https://play.google.com/store/apps/details?id=org.brahmakumaris.beezone"><img height="75px" class="download-button" src="../images/BeeZone/googleplay-button.png" alt="BeeZone Logo" /></a></div>
+</div>
+</div></div>
+
+</div>
+
+<!-- //BOTTOM SPOTLIGHT -->
+
+
+  
+
+
+  
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer">
+
+			<!-- FOOT NAVIGATION -->
+		<div class="container">
+				<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footnav  row">
+					<div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+								<div class="t3-module moduleanimated fadeInUp  animation-active " id="Mod88"><div class="module-inner"><h3 class="module-title "><span>Thought of the Day</span></h3><div class="module-ct"><img src="../images/tod/thought-for-today7.jpg" alt="Thought for today" class="thought-img img-responsive" /><p id="thought" class="thought-text">A big-hearted soul does not sentence others on the basis of a single act, but appreciates others through understanding their entire journey.</p></div></div></div><div class="t3-module module_sendy " id="Mod115"><div class="module-inner"><h3 class="module-title "><span>Subscribe to daily inspirations</span></h3><div class="module-ct"><div class="sendy subscribe" id="sendy-115">
+    <div class="intro">
+            </div>
+    <form id="sendy-subscribe-115">
+        <!--<input type="text" name="email" placeholder="Email Address" />//-->
+        <input id="sendy-input" type="text" name="email" placeholder="Email Address" />
+        <!--<button type="submit" name="Sign up" class="btn span3">Sign Up</button>//-->
+      <button id="sendy-button" type="submit" name="Sign up" class="btn span3 btn-primary">Sign Up</button>  
+      <input type="hidden" name="mid" value="115" />
+    </form>
+</div>
+
+<script>
+    jQuery('form[id="sendy-subscribe-115"]').submit(function (form)
+    {
+        var formId = '#' + form.target.id;
+        var email = jQuery(formId + ' input[name=email]').val();
+        var url = 'email=' + email + '&74c62ff10997b977006d99c1b260cfe8=1&mid=115';
+        jQuery("#sendy-115").fadeOut('500');
+        jQuery.ajax({
+            url: 'https://www.brahmakumaris.org/modules/mod_sendy/ajax/subscribe.php',
+            data: url,
+            type: "POST",
+            dataType: 'text json',
+            success: function (ret)
+            {
+                if (ret.success == true)
+                {
+                    jQuery("#sendy-115").html(ret.html).fadeIn('1000');
+                  	if(ret.html.includes('Uh oh!'))
+                    {
+                        dataLayer.push({'event': 'subscribe', 
+                            'subscribe_outcome':ret.html.replace(/<(?:.|\n)*?>/gm, '').replace('Uh oh! We encountered an error when trying to sign you up:', '')
+                               .trim()});
+                    }
+                    else
+                    {
+                       dataLayer.push({'event': 'subscribe', 'subscribe_outcome':'Success'});
+                    }
+                }
+                else
+                {
+                    jQuery("#sendy-115").html("There was an error processing your subscription.").fadeIn('1000');
+                    dataLayer.push({'event': 'subscribe', 'subscribe_outcome':'Generic Failure'});
+                }
+            }
+        });
+        return false; // Don't actually submit the form
+    });
+</script></div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-6 col-xs-12">
+								<div class="t3-module module_menu " id="Mod1"><div class="module-inner"><h3 class="module-title "><span>Meditation</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-105"><a href="../meditation/raja-yoga-meditation.html" class="">What is Raja Yoga Meditation?</a></li><li class="item-109"><a href="../meditation/how-to-meditate.html" class="">How to Meditate</a></li><li class="item-110"><a href="../meditation/where-to-meditate.html" class="">Where to Meditate</a></li><li class="item-111"><a href="../meditation/time-for-meditation.html" class="">Time for Meditation</a></li><li class="item-112"><a href="../meditation/who-uses-ry-meditation.html" class="">Who uses Raja Yoga Meditation</a></li><li class="item-113"><a href="../meditation/retreat-centres.html" class="">Retreat Centres</a></li><li class="item-149"><a href="../meditation/experience-meditation.html" class="">Experience Meditation</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-6 col-xs-12">
+								<div class="t3-module module_menu " id="Mod90"><div class="module-inner"><h3 class="module-title "><span>Wisdom</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-106"><a href="raja-yoga.html" class="">Experience Raja Yoga</a></li><li class="item-114"><a href="soul.html" class="">Soul</a></li><li class="item-115 parent"><a href="god-knows.html" class="">God Knows</a></li><li class="item-116 parent"><a href="tree-in-time.html" class="">Tree in Time</a></li><li class="item-117"><a href="wheel-of-life.html" class="">Wheel of Life</a></li><li class="item-118"><a href="karma.html" class="">Karma</a></li><li class="item-1335"><a href="a-narrative-of-love.html" class="">A narrative of love</a></li><li class="item-1286 parent"><a href="essential-spirituality/a-spiritual-perspective.html" class="">Essential Spirituality </a></li><li class="item-119 parent"><a href="healthy-living.html" class="">Healthy Living</a></li><li class="item-120 parent"><a href="spiritual-tools.html" class="">Spiritual Tools</a></li><li class="item-440"><a href="courses-we-offer.html" class="">Courses We Offer</a></li><li class="item-164 current"><a href="online-talks.html" class="">Online Talks</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-6 col-xs-12">
+								<div class="t3-module module_menu " id="Mod91"><div class="module-inner"><h3 class="module-title "><span>Hope</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-107 parent"><a href="../hope/environment/a-different-consciousness.html" class="">Environment </a></li><li class="item-1165 parent"><a href="../hope/renewable-energy/from-a-spiritual-vision-to-local-action.html" class="">Renewable Energy </a></li><li class="item-121 parent"><a href="../hope/leadership/call-of-the-time.html" class="">Leadership </a></li><li class="item-122 parent"><a href="../hope/women-men/empowering-women.html" class="">Women and Men </a></li><li class="item-123 parent"><a href="../hope/youth/young-leaders.html" class="">Youth </a></li><li class="item-179"><a href="../hope/glimpses-of-hope.html" class="">Glimpses of Hope</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-2 col-md-2 col-sm-6 col-xs-12">
+								<div class="t3-module module_menu " id="Mod92"><div class="module-inner"><h3 class="module-title "><span>Discovery</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+<li class="item-108 parent"><a href="../discovery/inspirations-dadi-janki.html" class="">Inspirations from Dadi Janki</a></li><li class="item-124 parent"><a href="../discovery/the-mindful-kitchen.html" class="">The Mindful Kitchen</a></li><li class="item-509 parent"><a href="../discovery/articles-blog/articles.html" class="">Articles </a></li><li class="item-127"><a href="../discovery/virtuescope.html" class="">Virtuescope</a></li><li class="item-129"><a href="../discovery/events-near-you.html" class="">Events Near You</a></li><li class="item-130"><a href="../discovery/ebooks.html" class="">Ebooks</a></li><li class="item-131"><a href="../discovery/bookshop.html" class="">Bookshop</a></li></ul>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+		</div>
+		<!-- //FOOT NAVIGATION -->
+	
+	<section class="footer-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 copyright ">
+					
+          <small>
+            © 2020 Brahma Kumaris&nbsp;&nbsp;|&nbsp;&nbsp;<a title="Terms of Use" href="../legal/terms-of-use.html">Terms of Use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a title="Privcy Policy" href="../legal/privacy-policy.html">Privacy Notice</a>
+          </small>
+				</div>
+				                <div class="col-md-4 social">
+                  <!--i class="fa fa-facebook fa-2x"></i>
+                  <i class="fa fa-twitter fa-2x"></i>
+                  <i class="fa fa-google-plus fa-2x"></i-->
+                  <ul class="menu pull-right">
+<li class="item-150 firstItem"><a class="fa fa-twitter hasTooltip  custom_hover" href="https://www.twitter.com/brahmakumaris" title="" data-original-title="Twitter" target="_blank"><span><span></span><strong></strong></span></a>
+</li><li class="item-148"><a class="fa fa-facebook hasTooltip  custom_hover" href="https://www.facebook.com/bkwsu" title="" data-original-title="Facebook" target="_blank"><span><span></span><strong></strong></span></a>
+</li><!-- li class="item-149"><a class="fa fa-google-plus hasTooltip  custom_hover" href="#" title="" data-original-title="Google+" target="_blank"><span><span></span><strong></strong></span></a>
+</li--> </ul>
+                </div>
+              </div>
+			</div>
+	</section>
+
+</footer>
+<!-- //FOOTER -->
+
+<!-- BACK TOP TOP BUTTON -->
+ 
+<div id="back-to-top" data-spy="affix" data-offset-top="300" class="back-to-top affix-top">
+ 
+  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-up"></i></button>
+ 
+</div>
+ 
+ 
+ 
+<script type="text/javascript">
+ 
+(function($) {
+ 
+	// Back to top
+ 
+	$('#back-to-top').on('click', function(){
+ 
+		$("html, body").animate({scrollTop: 0}, 500);
+ 
+		return false;
+ 
+	});
+ 
+})(jQuery);
+ 
+</script>
+
+ 
+<!-- BACK TO TOP BUTTON -->
+
+</div>
+
+
+<div class="custom"  >
+	<script type="text/javascript">
+jQuery(function() {
+    jQuery(".accordion").accordion({
+	heightStyle: "content",
+	collapsible: true,
+	active: false,
+	icons: {
+		"header": "ui-icon-plus",
+		"activeHeader": "ui-icon-minus"
+	}
+    });
+});
+</script></div>
+
+</body>
+
+<!-- Mirrored from www.brahmakumaris.org/wisdom/online-talks?view=video&nodeRef=workspace://SpacesStore/2fea8e80-4b6e-4c34-87d3-b7b5f98539e7&ctg=all by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Jun 2021 18:48:07 GMT -->
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Brahma Kumaris</title>
+		<description>Discusión Brahma Kumaris</description>
+		<link>https://www.brahmakumaris.org</link>
+		<lastBuildDate>Mon, 28 Jun 2021 18:57:10 +0100</lastBuildDate>
+		<generator>JComments</generator>
+		<atom:link href="https://www.brahmakumaris.org/es/component/jcomments/feed/com_alfresco/2488010751" rel="self" type="application/rss+xml" />
+		<item>
+			<title>Carla dice:</title>
+			<link>https://www.brahmakumaris.org#comment-22125</link>
+			<description><![CDATA["Me fascinó la mediación quien soy yo"]]></description>
+			<dc:creator>Carla</dc:creator>
+			<pubDate>Thu, 02 Jan 2020 16:15:02 +0000</pubDate>
+			<guid>https://www.brahmakumaris.org#comment-22125</guid>
+		</item>
+	</channel>
+</rss>
