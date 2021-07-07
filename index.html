@@ -32,7 +32,7 @@
 	<link href="t3-assets/css/css-3f395-43017.css" rel="stylesheet" type="text/css" media="all" />
 	<style type="text/css">
 .jw-icon-next, .jw-icon-rewind {display: none !important;}
-#ultimate_map {height: aaaa;}
+/* #ultimate_map {height: aaaa;} */
 #sp-smart-slider.sp-organic-life-layout,
 #sp-smart-slider.sp-organic-life-layout.loading:before{
     background:#fff
@@ -69,7 +69,7 @@ height: 500px;
 	</style>
 	<script src="t3-assets/js/js-4ed49-36808.js" type="text/javascript"></script>
 	<script src="../content.jwplatform.com/libraries/Sw9DyqTC.js" type="text/javascript"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaRkfJF87qaY0UaD52rfTjF8HedW6v4MQ" type="text/javascript"></script>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaRkfJF87qaY0UaD52rfTjF8HedW6v4MQ" type="text/javascript"></script> -->
 	<script src="t3-assets/js/js-a7691-38939.js" type="text/javascript"></script>
 	<script type="text/javascript">
 jQuery(window).on('load',  function() {
@@ -93,46 +93,46 @@ jQuery(window).on('load',  function() {
 			});
 		});
 	
-			google.maps.event.addDomListener(window, 'load', init);
+// 			google.maps.event.addDomListener(window, 'load', init);
 
-            function init() {
+//             function init() {
 
-                var mapOptions = {
-                    zoom: 2,
-					scrollwheel: false,
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(30.6700, 0.0000),
+//                 var mapOptions = {
+//                     zoom: 2,
+// 					scrollwheel: false,
+//                     // The latitude and longitude to center the map (always required)
+//                     center: new google.maps.LatLng(30.6700, 0.0000),
 
-                    // How you would like to style the map.
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [	{		"featureType":"landscape",		"stylers":[			{				"hue":"#FFBB00"			},			{				"saturation":43.400000000000006			},			{				"lightness":37.599999999999994			},			{				"gamma":1			}		]	},	{		"featureType":"road.highway",		"stylers":[			{				"hue":"#FFC200"			},			{				"saturation":-61.8			},			{				"lightness":45.599999999999994			},			{				"gamma":1			}		]	},	{		"featureType":"road.arterial",		"stylers":[			{				"hue":"#FF0300"			},			{				"saturation":-100			},			{				"lightness":51.19999999999999			},			{				"gamma":1			}		]	},	{		"featureType":"road.local",		"stylers":[			{				"hue":"#FF0300"			},			{				"saturation":-100			},			{				"lightness":52			},			{				"gamma":1			}		]	},	{		"featureType":"water",		"stylers":[			{				"hue":"#0078FF"			},			{				"saturation":-13.200000000000003			},			{				"lightness":2.4000000000000057			},			{				"gamma":1			}		]	},	{		"featureType":"poi",		"stylers":[			{				"hue":"#00FF6A"			},			{				"saturation":-1.0989010989011234			},			{				"lightness":11.200000000000017			},			{				"gamma":1			}		]	}]
-                };
-
-
-                var mapElement = document.getElementById('ultimate_map');
+//                     // How you would like to style the map.
+//                     // This is where you would paste any style found on Snazzy Maps.
+//                     styles: [	{		"featureType":"landscape",		"stylers":[			{				"hue":"#FFBB00"			},			{				"saturation":43.400000000000006			},			{				"lightness":37.599999999999994			},			{				"gamma":1			}		]	},	{		"featureType":"road.highway",		"stylers":[			{				"hue":"#FFC200"			},			{				"saturation":-61.8			},			{				"lightness":45.599999999999994			},			{				"gamma":1			}		]	},	{		"featureType":"road.arterial",		"stylers":[			{				"hue":"#FF0300"			},			{				"saturation":-100			},			{				"lightness":51.19999999999999			},			{				"gamma":1			}		]	},	{		"featureType":"road.local",		"stylers":[			{				"hue":"#FF0300"			},			{				"saturation":-100			},			{				"lightness":52			},			{				"gamma":1			}		]	},	{		"featureType":"water",		"stylers":[			{				"hue":"#0078FF"			},			{				"saturation":-13.200000000000003			},			{				"lightness":2.4000000000000057			},			{				"gamma":1			}		]	},	{		"featureType":"poi",		"stylers":[			{				"hue":"#00FF6A"			},			{				"saturation":-1.0989010989011234			},			{				"lightness":11.200000000000017			},			{				"gamma":1			}		]	}]
+//                 };
 
 
+//                 var mapElement = document.getElementById('ultimate_map');
 
-                var map = new google.maps.Map(mapElement, mapOptions);
-				var poly=new Polygon();
-				poly.createPolygon(map, {
- country: ["all"],
- strokeColor:"#A52A2A",
- strokeOpacity:0.1,
- strokeWeight:1,
- fillColor:"#A52A2A",
- fillOpacity:0.1,
- hoverFillColor:"#A52A2A",
- hoverFillOpacity:0.3,
- hoverStrokeColor:"#A52A2A",
- hoverStrokeWeight:1,
- hoverStrokeOpacity:0.5,
- toolTip:true,
- toolTipText:"Click to open Website",
- onClickType:1,
- onClickValue:{url:"http://www.google.com",popup:"<h3>HTML CODE HERE</h3>",callback:function(){alert('test')}}
-            });
-			}
+
+
+//                 var map = new google.maps.Map(mapElement, mapOptions);
+// 				var poly=new Polygon();
+// 				poly.createPolygon(map, {
+//  country: ["all"],
+//  strokeColor:"#A52A2A",
+//  strokeOpacity:0.1,
+//  strokeWeight:1,
+//  fillColor:"#A52A2A",
+//  fillOpacity:0.1,
+//  hoverFillColor:"#A52A2A",
+//  hoverFillOpacity:0.3,
+//  hoverStrokeColor:"#A52A2A",
+//  hoverStrokeWeight:1,
+//  hoverStrokeOpacity:0.5,
+//  toolTip:true,
+//  toolTipText:"Click to open Website",
+//  onClickType:1,
+//  onClickValue:{url:"http://www.google.com",popup:"<h3>HTML CODE HERE</h3>",callback:function(){alert('test')}}
+//             });
+// 			}
 
 	
 function slideTo(item) {
@@ -743,16 +743,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 </div>
 </div>
-<script type="text/javascript">new WOW().init();</script></div>
-<div id="ultimate_map" class="ultimate_mapaaaa">
-</div>
+/* <script type="text/javascript">new WOW().init();</script></div> */
+/* <div id="ultimate_map" class="ultimate_mapaaaa">
+</div> */
 
 </div>
 
 <!-- //BOTTOM SPOTLIGHT -->
 
 
-  
 
 
   
